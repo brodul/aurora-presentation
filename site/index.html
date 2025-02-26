@@ -1,10 +1,30 @@
----
-title: Challenges with Aurora PSQL
-slides:
-    theme: ./ogrodje.css
----
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-## Challenges with Aurora PSQL
+        
+
+        <link rel="stylesheet" href="assets\reveal-js/dist/reveal.css" />
+
+        
+            <link rel="stylesheet" href="assets\ogrodje.css" />
+        
+        
+            <link rel="stylesheet" href="assets\monokai.css" />
+        
+
+        
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <section data-markdown
+                
+                >
+                    <textarea data-template>
+                        ## Challenges with Aurora PSQL
 
 ---
 
@@ -12,7 +32,7 @@ slides:
 
 - 15+ YOE 👴
 - Worked in AWS ☁️ back and forth from 2010
-- Multiple roles trough my career 🃏 :arrow_right:
+- Multiple roles trough my career 🃏 ➡️
 
 ---
 
@@ -23,8 +43,8 @@ slides:
 ## Situation 1/2
 
 - Joined a company 👋
-- Got tasked to move tenants from Cockroach DB to AWS RDS Aurora (Postgres engine) :nerd_face:
-- Each tenant own database :inbox_tray:
+- Got tasked to move tenants from Cockroach DB to AWS RDS Aurora (Postgres engine) 🤓
+- Each tenant own database 📥
 
 ---
 
@@ -226,3 +246,38 @@ Can you save any Unicode character as UTF8 encoding?
 ---
 
 Thank you
+                    </textarea>
+                </section>
+            </div>
+        </div>
+        <script src="assets\reveal-js/dist/reveal.js"></script>
+        <script src="assets\reveal-js/plugin/markdown/markdown.js"></script>
+        <script src="assets\reveal-js/plugin/highlight/highlight.js"></script>
+        <script src="assets\reveal-js/plugin/zoom/zoom.js"></script>
+        <script src="assets\reveal-js/plugin/notes/notes.js"></script>
+        <script src="assets\reveal-js/plugin/math/math.js"></script>
+
+        
+
+        <script>
+            Reveal.initialize({
+                
+                    
+                        history: true,
+                    
+                        slideNumber: "c/t",
+                    
+                
+                plugins: [
+                    RevealMarkdown,
+                    RevealHighlight,
+                    RevealZoom,
+                    RevealNotes,
+                    RevealMath,
+
+                    
+                ],
+            });
+        </script>
+    </body>
+</html>
